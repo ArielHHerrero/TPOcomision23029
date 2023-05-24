@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icono.ico" type="icono">
+
+    <title> ElectroMarket </title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+    <h1 class="logo"><img src="images/logo.jpg" alt="logo"></h1>
+    <!--login-->
+    <form>
+      <label for="username">Usuario:</label>
+      <input type="text" id="username" name="username"><br>
+    
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password"><br>
+    
+      <button type="submit">login</button>
+    </form>
+  </div>
+    <!--menu-->
+    <nav>
+      <ul>
+        <li> <a href="Catalogo.html">CATALOGO</a> </li>
+        <li> <a href="Carrito.html">CARRITO</a> </li>
+        <li> <a href="Contacto.html">CONTACTO</a> </li>
+      </ul>
+    </nav>
+
+  </header>
+    <main>
+      <!--carrusel-->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/productos/ofertas/ofertapequeños.jpg" class="active" alt="ofertapequeños">
+          </div>
+          <div class="carousel-item">
+            <img src="images/productos/ofertas/ofertastv.jpg" class="active" alt="ofertastv">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+        <script src="js/app.js"></script>
+      </div>
+        <!--cads-->
+        <section class="cards">
+          <article  class="card">
+              <a href="Celulares y Notebooks.html"> 
+                  <figure class="thumbnail">
+                      <img src="images/productos/celularesynotebooks.jpg" alt="celularesynotebooks">
+                  </figure>
+                  <div class="card-content">
+                      <h2>CELULARES Y NOTEBOOKS</h2>
+                      <button>COMPRAR</button>
+                  </div>
+              </a>
+          </article>
+          <article  class="card">
+              <a href="Led y Smart TV.html"> 
+                  <figure class="thumbnail">
+                      <img src="images/productos/tv y led.jpg" alt="tvyled">
+                  </figure>
+                  <div class="card-content">
+                      <h2>TV Y LED</h2>
+                      <button>COMPRAR</button>
+                  </div>
+              </a>
+          </article>
+          <article  class="card">
+              <a href="Pequeños.html"> 
+                  <figure class="thumbnail">
+                      <img src="images/productos/pequenos.jpg" alt="pequeños">
+                  </figure>
+                  <div class="card-content">
+                      <h2>PEQUEÑOS ELECTRODOMESTICOS</h2>
+                      <button>COMPRAR</button>
+                  </div>
+              </a>
+          </article>
+        </section>
+
+        <!--menu 2-->
+        
+    </main>
+    <nav>
+      <ul>
+          <li> <a href="index.html">ARRIBA</a> </li>
+          <li> <a href="Catalogo.html">CATALOGO</a> </li>
+          <li> <a href="Carrito.html">CARRITO</a> </li>
+          <li> <a href="Contacto.html">CONTACTO</a> </li>
+      </ul>
+  </nav>
+  
+    <!---foot-->
+    <footer>
+        <p>&copy;2023 ElectroMarket</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,188 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    color: rgb(3, 3, 3);
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: rgb(245, 146, 16);
+    color: beige;
+    padding: 1rem   
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    
+} 
+.container div {
+    max-width:50%; 
+    
+}
+.logo{
+    margin: 0 0;
+    max-width:30%;
+    height: auto;
+    display: flex;
+    
+}  
+
+/*login*/    
+form {
+    border: 1px solid #ccc;
+    padding: 5px;
+    max-width:30% 
+}
+
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    float: left;
+    
+}
+
+input[type="text"],
+input[type="password"] {
+    
+    padding: 1.5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+  
+}
+
+button[type="submit"] {
+  background-color: rgb(245, 146, 16);
+  color: white;
+  font-size: 12px;
+  padding: 1px 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+/*NAV superior e inferior*/
+nav{
+    background-color: rgb(255, 146, 3);
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+}
+nav li{
+    margin: 0 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+
+}
+nav ul li a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+    background-color:rgb(255, 146, 3);
+}
+/* CARD */
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+}
+.card-content h1{
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-size: 50px;
+    text-align: left;
+    padding: .5px;
+    
+}
+.card-content h2{
+    color: red;
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-size: 50px;
+    text-align: left;
+    padding: .5px;
+}
+.card-content2{
+    padding-left: 2em;
+}
+
+    
+figure {
+    margin: 1em;
+    padding: 1em;
+    
+}
+img {
+    display: block;
+    padding: 2em;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.box{
+    width: 20%;
+    height:80px;
+    margin-bottom: 5em;
+}
+    
+
+.card {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1em;
+    width: 50%;
+    min-width: 500px;
+
+}
+
+
+.card-content {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 1.4em;
+        
+
+}
+button{
+    background-color: rgb(255, 146, 3);
+    color: rgb(5, 5, 5);
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 1rem;   
+}
+button:hover{
+    background-color: rgb(201, 114, 8);
+    color: aliceblue;
+    
+}
+
